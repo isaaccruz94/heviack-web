@@ -1,0 +1,21 @@
+@import './link.css';
+@import './fonts.css';
+@import './menu.css';
+@import './hero.css';
+
+:root{
+    --fontMontserrat: montserrat, arial; 
+    --fontNunito: nunito, arial;
+    --fontBase: 400 1.25rem /normal var(--fontNunito);
+    --fontTitle: 700 4.25rem /normal var(--fontMontserrat);
+    --fontButton: 500 1rem/normal var(--fontMontserrat);
+    --fontMenu: 400 1rem/normal var(--fontMontserrat);
+}
+.body{
+    margin: 0;
+    font: var(--fontBase);
+}
+.wrapper{
+    max-inline-size: 90rem;
+    margin-inline: auto;
+}
